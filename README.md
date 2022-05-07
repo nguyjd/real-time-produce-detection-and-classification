@@ -58,6 +58,11 @@ If you want to use the real time portion of the project.
 </p>
 <p align="center" >Figure 3: Multiple Produce Detection.</p>
 
+<p align="center" style="margin-bottom: 0px">
+  <img height="400" src="https://raw.githubusercontent.com/nguyjd/real-time-produce-detection-and-classification/main/mAPGraph.png" alt="banana" align="center">
+</p>
+<p align="center" >Figure 4: mAP @ 50% IoU.</p>
+
 ## Citations
 Horea Muresan, Mihai Oltean, Fruit recognition from images using deep learning, Acta Univ. Sapientiae, Informatica Vol. 10, Issue 1, pp. 26-42, 2018.  
 Alexey Bochkovskiy, Chien-Yao Wang and Hong-Yuan Mark LiaoS, YOLOv4: Optimal Speed and Accuracy of Object Detection, 2020.  
