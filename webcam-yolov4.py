@@ -37,14 +37,14 @@ while True:
         # Pass the webcam frame through the model.
         labelsIndex, scores, bounds = yolov4.detect(frame, CONFTHRESHOLD, NMSTHRESHOLD)
 
+        produceCount[0] = 0
+        produceCount[1] = 0
+        produceCount[2] = 0
+
         for index, bound in enumerate(bounds):
             label = f"{labels[labelsIndex[index]]}: {scores[index]:.2f}"
             cv2.rectangle(frame, bound, COLOR, 1)
             cv2.putText(frame, label, (bound[0], bound[1]-10), FONT, 1, COLOR, 1)
-
-            produceCount[0] = 0
-            produceCount[1] = 0
-            produceCount[2] = 0
 
             if labels[labelsIndex[index]] == 'banana':
                 produceCount[0] += 1
