@@ -35,7 +35,7 @@ If you want to train with the dataset we compliled from the begining.
 - Go into the darknet folder
 - Double click the start_training.bat file.
 
-If you want to train with the dataset we compliled from the from the weights that we made.
+If you want to train with the dataset we compliled and the weights that we made.
 - Download "Weights from 0 to 3000" and place it in the darknet folder.
 - Go into the darknet folder
 - Open a powershell terminal
